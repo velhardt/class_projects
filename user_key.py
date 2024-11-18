@@ -2,7 +2,7 @@ import sqlite3
 import random
 import string
 
-db = sqlite3.connect("D:\\! Bathspa\\1st Year - 2024-2025\\Intro to Programming\\Assessments\\Assessment 1\\classworks\\user_key\\user_data.db")
+db = sqlite3.connect("user_data.db")
 
 def insert(username,key):
     query = "insert into users(username,key) values(?,?);"
